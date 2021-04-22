@@ -44,7 +44,9 @@ body {
 
 .list1 {
     width: 50%;
+    margin: 20px;
 }
 .list2 {
     border: 10px solid black;
+    padding: 30px;
 }
