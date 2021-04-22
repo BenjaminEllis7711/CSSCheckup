@@ -1,0 +1,50 @@
+#head {
+    background-image: linear-gradient(to bottom, rgb(255, 194, 194) , rgb(253, 24, 24));
+    border: 5px solid black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    right:10px;
+}
+
+nav {
+    position: fixed;
+    top: 95px;
+    width: 100%;
+    background-color: lightgray;
+    border: 10px ridge rgb(15, 221, 228);
+    text-align: right;
+    right:10px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(206, 112, 131);
+}
+
+.list li:nth-child(1){
+    font-style: normal;
+}
+.list li:nth-child(2){
+    font-style: italic;
+}
+.list li:nth-child(3){
+    font-style: oblique;
+}
+.list li:nth-child(4){
+    font-weight: bold;
+}
+.list li:nth-child(5){
+    font-weight: bolder;
+}
+.list li:nth-child(6){
+    font-weight: lighter;
+}
+
+.list1 {
+    width: 50%;
+}
+.list2 {
+    border: 10px solid black;
+}
